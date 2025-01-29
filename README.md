@@ -23,3 +23,15 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | ShuffleNetV2×1.5_va | E      | F    | C    | C    | C    |
 | ShuffleNetV2×1.5_kd | E      | F    | C    | C    | C    |
 
+| model | AID_50%_1 | AID_50%_2 | AID_50%_3 | AID_50%_4 | AID_50%_5 | mean+std |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| ResNet18_va         | B      | C    | C    | C    | C    |
+| ResNet18_kd         | B      | C    | C    | C    | C    |
+| VGG11BN_va          | E      | F    | C    | C    | C    |
+| VGG11BN_kd          | E      | F    | C    | C    | C    |
+| WRN50_2_va          | E      | F    | C    | C    | C    |
+| WRN50_2_kd          | E      | F    | C    | C    | C    |
+| ShuffleNetV2×1.5_va | E      | F    | C    | C    | C    |
+| ShuffleNetV2×1.5_kd | E      | F    | C    | C    | C    |
+
+
