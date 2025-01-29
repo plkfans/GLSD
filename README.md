@@ -10,8 +10,9 @@ Python 3.8, Pytorch 2.4, CUDA 12.4
 ## Training model
 
 # Experimental results
-| 左对齐 | 居中对齐 | 右对齐 |
-|:------|:------:|------:|
-| A    | B      | C    |
-| D    | E      | F    |
+## AID
+| model | AID_20%_1 | AID_20%_2 | AID_20%_3 | AID_20%_4 | AID_20%_5 | mean+std |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| A    | B      | C    | C    | C    | C    |
+| D    | E      | F    | C    | C    | C    |
 
