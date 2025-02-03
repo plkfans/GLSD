@@ -1,4 +1,4 @@
-# GLSD
+![image](https://github.com/user-attachments/assets/051ba865-58b5-4429-b8bd-39dca2a591fc)# GLSD
 This is the Pytorch implementation of GLSD for remote sensing scene image classification.
 
 # Requirements
@@ -16,8 +16,8 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 20% Training:
 | model | AID_20%_1 | AID_20%_2 | AID_20%_3 | AID_20%_4 | AID_20%_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| ResNet18_va         | 93.15%      | 93.89%    | 93.73%    | 93.59%    | 92.90%    | 93.45+0.37
-| ResNet18_kd         | B      | C    | C    | C    | C    |
+| ResNet18_va         | 93.15%      | 93.89%    | 93.73%    | 93.59%    | 92.90%    | 93.45±0.37
+| ResNet18_kd         | 96.14%      | 96.34%    | 96.11%    | 96.06%    | 96.17%    | 96.16±0.10
 | VGG11BN_va          | E      | F    | C    | C    | C    |
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
 | WRN50_2_va          | E      | F    | C    | C    | C    |
