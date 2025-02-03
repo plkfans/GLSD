@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/051ba865-58b5-4429-b8bd-39dca2a591fc)# GLSD
+# GLSD
 This is the Pytorch implementation of GLSD for remote sensing scene image classification.
 
 # Requirements
