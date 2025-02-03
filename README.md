@@ -21,8 +21,8 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | VGG11BN_va          | 92.33%      | 92.76%    | 93.17%    | 92.46%    | 92.59%    | 92.66±0.29
 | VGG11BN_kd          | 97.06%      | 97.12%    | 97.16%    | 96.94%    | 96.88%    | **97.03±0.11**(+4.37%)
 | WRN50_2_va          | 93.96%      | 93.80%    | 94.06%    | 94.21%    | 94.21%    | 94.05±0.16
-| WRN50_2_kd          | E      | F    | C    | C    | C    |
-| ShuffleNetV2×1.5_va | E      | F    | C    | C    | C    |
+| WRN50_2_kd          | 96.17%      | 96.51%    | 96.75%    | C    | C    |
+| ShuffleNetV2×1.5_va | 91.91%      | 92.33%    | 92.79%    | 93.06%    | 92.70%    | 92.56±0.40
 | ShuffleNetV2×1.5_kd | E      | F    | C    | C    | C    |
 
 50% Training:
