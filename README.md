@@ -28,9 +28,9 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 50% Training:
 | model | AID_50%_1 | AID_50%_2 | AID_50%_3 | AID_50%_4 | AID_50%_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| ResNet18_va         | B      | C    | C    | C    | C    |
+| ResNet18_va         | 95.22%      | 95.72%    | 95.60%    | 95.36%    | 95.90%    | 95.56±0.24
 | ResNet18_kd         | B      | C    | C    | C    | C    |
-| VGG11BN_va          | E      | F    | C    | C    | C    |
+| VGG11BN_va          | 95.44%      | 95.42%    | 95.56%    | 95.42%    | 95.40%    | 95.45±0.06
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
 | WRN50_2_va          | E      | F    | C    | C    | C    |
 | WRN50_2_kd          | E      | F    | C    | C    | C    |
