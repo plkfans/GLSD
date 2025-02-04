@@ -41,8 +41,8 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 50% Training:
 | model | UCM_50%_1 | UCM_50%_2 | UCM_50%_3 | UCM_50%_4 | UCM_50%_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| ResNet18_va         | B      | C    | C    | C    | C    |
-| ResNet18_kd         | B      | C    | C    | C    | C    |
+| ResNet18_va         | 97.24%      | 97.33%    | 98.19%    | 97.81%    | 97.24%    | 97.56±0.38
+| ResNet18_kd         | 98.95%      | 98.86%    | 99.05%    | 98.76%    | 98.48%    | **98.82±0.20**(+1.26%)
 | VGG11BN_va          | E      | F    | C    | C    | C    |
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
 | WRN50_2_va          | E      | F    | C    | C    | C    |
