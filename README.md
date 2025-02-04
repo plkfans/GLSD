@@ -32,9 +32,9 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | ResNet18_kd         | B      | C    | C    | C    | C    |
 | VGG11BN_va          | 95.44%      | 95.42%    | 95.56%    | 95.42%    | 95.40%    | 95.45±0.06
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
-| WRN50_2_va          | E      | F    | C    | C    | C    |
+| WRN50_2_va          | 96.00%      | 95.82%    | 96.04%    | 96.10%    | 96.50%    | 96.09±0.22
 | WRN50_2_kd          | E      | F    | C    | C    | C    |
-| ShuffleNetV2×1.5_va | E      | F    | C    | C    | C    |
+| ShuffleNetV2×1.5_va | 95.12%      | 95.34%    | 95.50%    | 94.94%    | 95.40%    | 95.26±0.20
 | ShuffleNetV2×1.5_kd | E      | F    | C    | C    | C    |
 
 ## UCM
