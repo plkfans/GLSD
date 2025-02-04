@@ -67,7 +67,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | model | RSSCN7_20%_1 | RSSCN7_20%_2 | RSSCN7_20%_3 | RSSCN7_20%_4 | RSSCN7_20%_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 91.65%      | 92.19%    | 90.62%    | 91.03%    | 91.56%    | 91.41±0.54
-| ResNet18_kd         | B      | C    | C    | C    | C    |
+| ResNet18_kd         | 95.94%      | 96.47%    | 95.62%    | 96.43%    | 96.21%    | **96.13±0.32**(+4.72%)
 | VGG11BN_va          | E      | F    | C    | C    | C    |
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
 | WRN50_2_va          | E      | F    | C    | C    | C    |
