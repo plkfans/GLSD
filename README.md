@@ -35,7 +35,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | WRN50_2_va          | 96.00%      | 95.82%    | 96.04%    | 96.10%    | 96.50%    | 96.09±0.22
 | WRN50_2_kd          | E      | F    | C    | C    | C    |
 | ShuffleNetV2×1.5_va | 95.12%      | 95.34%    | 95.50%    | 94.94%    | 95.40%    | 95.26±0.20
-| ShuffleNetV2×1.5_kd | E      | F    | C    | C    | C    |
+| ShuffleNetV2×1.5_kd | 97.80%      | 97.52%    | 97.92%    | 97.84%    | 97.84%    | **97.78±0.14**(+2.52%)
 
 ## UCM
 50% Training:
