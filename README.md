@@ -54,7 +54,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | model | UCM_80%_1 | UCM_80%_2 | UCM_80%_3 | UCM_80%_4 | UCM_80%_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 99.29%      | 98.81%    | 99.29%    | 98.10%    | 98.57%    | 98.81±0.45
-| ResNet18_kd         | B      | C    | C    | C    | C    |
+| ResNet18_kd         | 99.76%      | 99.52%    | 100.00%    | 99.05%    | 99.29%    | **99.52±0.34**(+0.71%)
 | VGG11BN_va          | E      | F    | C    | C    | C    |
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
 | WRN50_2_va          | E      | F    | C    | C    | C    |
