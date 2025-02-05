@@ -78,8 +78,8 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 50% Training:
 | model | RSSCN7_50%_1 | RSSCN7_50%_2 | RSSCN7_50%_3 | RSSCN7_50%_4 | RSSCN7_50%_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| ResNet18_va         | B      | C    | C    | C    | C    |
-| ResNet18_kd         | B      | C    | C    | C    | C    |
+| ResNet18_va         | 95.21%      | 94.43%    | 95.21%    | 94.79%    | 95.29%    | 94.99±0.33
+| ResNet18_kd         | 97.71%      | 98.00%    | 98.00%    | 98.14%    | 98.50%    | **98.07±0.26**(+3.08%)
 | VGG11BN_va          | E      | F    | C    | C    | C    |
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
 | WRN50_2_va          | E      | F    | C    | C    | C    |
