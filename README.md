@@ -98,7 +98,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | WRN50_2_va          | 90.74%      | 90.99%    | 90.37%    | 91.10%    | 90.72%    | 90.78±0.25
 | WRN50_2_kd          | E      | F    | C    | C    | C    |
 | ShuffleNetV2×1.5_va | 88.70%      | 88.34%    | 88.23%    | 87.88%    | 88.11%    | 88.25±0.27
-| ShuffleNetV2×1.5_kd | E      | F    | C    | C    | C    |
+| ShuffleNetV2×1.5_kd | 93.60%      | 92.71%    | 93.69%    | 93.80%    | 93.23%    | **93.41±0.40**(+5.16%)
 
 20% Training:
 | model | NWPU-RESISC45_20%_1 | NWPU-RESISC45_20%_2 | NWPU-RESISC45_20%_3 | NWPU-RESISC45_20%_4 | NWPU-RESISC45_20%_5 | mean+std |
