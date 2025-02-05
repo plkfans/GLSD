@@ -91,7 +91,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 10% Training:
 | model | NWPU-RESISC45_10%_1 | NWPU-RESISC45_10%_2 | NWPU-RESISC45_10%_3 | NWPU-RESISC45_10%_4 | NWPU-RESISC45_10%_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| ResNet18_va         | B      | C    | C    | C    | C    |
+| ResNet18_va         | 89.38%      | 88.84%    | 88.96%    | 89.22%    | 88.87%    | 89.05±0.21
 | ResNet18_kd         | B      | C    | C    | C    | C    |
 | VGG11BN_va          | E      | F    | C    | C    | C    |
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
