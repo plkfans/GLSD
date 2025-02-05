@@ -91,13 +91,13 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 10% Training:
 | model | NWPU-RESISC45_10%_1 | NWPU-RESISC45_10%_2 | NWPU-RESISC45_10%_3 | NWPU-RESISC45_10%_4 | NWPU-RESISC45_10%_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| ResNet18_va         | 89.38%      | 88.84%    | 88.96%    | 89.22%    | 88.87%    | 89.05±0.21
+| ResNet18_va         | 89.29%      | 88.69%    | 88.74%    | 89.33%    | 88.54%    | 88.92±0.33
 | ResNet18_kd         | B      | C    | C    | C    | C    |
-| VGG11BN_va          | E      | F    | C    | C    | C    |
+| VGG11BN_va          | 87.22%      | 87.31%    | 86.73%    | 87.62%    | 86.85%    | 87.15±0.32
 | VGG11BN_kd          | E      | F    | C    | C    | C    |
-| WRN50_2_va          | E      | F    | C    | C    | C    |
+| WRN50_2_va          | 90.74%      | 90.99%    | 90.37%    | 91.10%    | 90.72%    | 90.78±0.25
 | WRN50_2_kd          | E      | F    | C    | C    | C    |
-| ShuffleNetV2×1.5_va | E      | F    | C    | C    | C    |
+| ShuffleNetV2×1.5_va | 88.70%      | 88.34%    | 88.23%    | 87.88%    | 88.11%    | 88.25±0.27
 | ShuffleNetV2×1.5_kd | E      | F    | C    | C    | C    |
 
 20% Training:
