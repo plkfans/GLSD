@@ -112,7 +112,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | ShuffleNetV2×1.5_va | 91.46%      | 91.32%    | 91.39%    | 91.40%    | 91.42%    | 91.40±0.05
 | ShuffleNetV2×1.5_kd | 96.23%      | 95.29%    | 95.56%    | 95.37%    | 95.52%    | **95.59±0.33**(+4.19%)
 
-## Efficientnet_b3
+## VGG11 & Efficientnet_b3
 | datasets | data_1 | data_2 | data_3 | data_4 | data_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | AID_20%_va           | 92.33%      | 92.76%    | 93.17%    | 92.46%    | 92.59%    | 92.66±0.29
