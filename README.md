@@ -132,6 +132,18 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | NWPU-RESISC45_20%_va | 90.96%      | 90.85%    | 90.94%    | 90.64%    | 90.79%    | 90.84±0.12
 | NWPU-RESISC45_20%_kd | 97.31%      | 97.35%    | 97.29%    | 97.30%    | 97.30%    | **97.31±0.02**(+6.47%)
 
+## Efficientnet_b3 & Efficientnet_b3
+| datasets | data_1 | data_2 | data_3 | data_4 | data_5 | mean+std |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| AID_20%_va           | 0      | 0    | 0    | 0    | 0    | 0
+| AID_20%_kd           | 0      | 0    | 0    | 0    | 0    | 0
+| AID_50%_va           | 0      | 0    | 0    | 0    | 0    | 0
+| AID_50%_kd           | 0      | 0    | 0    | 0    | 0    | 0
+| NWPU-RESISC45_10%_va | 92.43%      | 92.09%    | 92.26%    | 92.43%    | 92.11%    | 92.26±0.15
+| NWPU-RESISC45_10%_kd | 0      | 0    | 0    | 0    | 0    | 0
+| NWPU-RESISC45_20%_va | 0      | 0    | 0    | 0    | 0    | 0
+| NWPU-RESISC45_20%_kd | 0      | 0    | 0    | 0    | 0    | 0
+
 
 
 
