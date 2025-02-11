@@ -135,7 +135,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 ## Efficientnet_b3 & Efficientnet_b3
 | datasets | data_1 | data_2 | data_3 | data_4 | data_5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| AID_20%_va           | 0      | 0    | 0    | 0    | 0    | 0
+| AID_20%_va           | 95.60%      | 95.66%    | 95.86%    | 95.76%    | 95.73%    | 95.72±0.09
 | AID_20%_kd           | 0      | 0    | 0    | 0    | 0    | 0
 | AID_50%_va           | 0      | 0    | 0    | 0    | 0    | 0
 | AID_50%_kd           | 0      | 0    | 0    | 0    | 0    | 0
