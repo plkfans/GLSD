@@ -142,7 +142,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | NWPU-RESISC45_10%_va | 92.43%      | 92.09%    | 92.26%    | 92.43%    | 92.11%    | 92.26±0.15
 | NWPU-RESISC45_10%_kd | 0      | 0    | 0    | 0    | 0    | 0
 | NWPU-RESISC45_20%_va | 94.65%      | 94.49%    | 94.45%    | 94.62%    | 94.42%    | 94.53±0.09
-| NWPU-RESISC45_20%_kd | 0      | 0    | 0    | 0    | 0    | 0
+| NWPU-RESISC45_20%_kd | 97.60%      | 97.37%    | 97.42%    | 97.51%    | 97.37%    | **97.45±0.09**(+2.92%)
 
 
 
