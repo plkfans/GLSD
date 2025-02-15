@@ -14,7 +14,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
  and `model.pth` of each result are provided on [Github Releases](https://github.com).
 ## AID
 20% Training:
-| model | AID_20%_1 | AID_20%_2 | AID_20%_3 | AID_20%_4 | AID_20%_5 | mean+std |
+| model | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 93.15%      | 93.89%    | 93.73%    | 93.59%    | 92.90%    | 93.45±0.37
 | ResNet18_kd         | 96.14%      | 96.34%    | 96.11%    | 96.06%    | 96.17%    | **96.16±0.10**(+2.71%)
@@ -26,7 +26,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | ShuffleNetV2×1.5_kd | 96.09%      | 96.00%    | 95.89%    | 96.62%    | 96.29%    | **96.18±0.26**(+3.62%)
 
 50% Training:
-| model | AID_50%_1 | AID_50%_2 | AID_50%_3 | AID_50%_4 | AID_50%_5 | mean+std |
+| model | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 95.22%      | 95.72%    | 95.60%    | 95.36%    | 95.90%    | 95.56±0.24
 | ResNet18_kd         | 97.56%      | 97.58%    | 97.80%    | 98.02%    | 97.92%    | **97.78±0.18**(+2.22%)
@@ -39,7 +39,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 
 ## UCM
 50% Training:
-| model | UCM_50%_1 | UCM_50%_2 | UCM_50%_3 | UCM_50%_4 | UCM_50%_5 | mean+std |
+| model | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 97.24%      | 97.33%    | 98.19%    | 97.81%    | 97.24%    | 97.56±0.38
 | ResNet18_kd         | 98.95%      | 98.86%    | 99.05%    | 98.76%    | 98.48%    | **98.82±0.20**(+1.26%)
@@ -51,7 +51,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | ShuffleNetV2×1.5_kd | 98.48%      | 98.48%    | 99.24%    | 98.57%    | 98.86%    | **98.73±0.29**(+1.68%)
 
 80% Training:
-| model | UCM_80%_1 | UCM_80%_2 | UCM_80%_3 | UCM_80%_4 | UCM_80%_5 | mean+std |
+| model | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 99.29%      | 98.81%    | 99.29%    | 98.10%    | 98.57%    | 98.81±0.45
 | ResNet18_kd         | 99.76%      | 99.52%    | 100.00%    | 99.05%    | 99.29%    | **99.52±0.34**(+0.71%)
@@ -64,7 +64,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 
 ## RSSCN7
 20% Training:
-| model | RSSCN7_20%_1 | RSSCN7_20%_2 | RSSCN7_20%_3 | RSSCN7_20%_4 | RSSCN7_20%_5 | mean+std |
+| model | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 91.65%      | 92.19%    | 90.62%    | 91.03%    | 91.56%    | 91.41±0.54
 | ResNet18_kd         | 95.94%      | 96.47%    | 95.62%    | 96.43%    | 96.21%    | **96.13±0.32**(+4.72%)
@@ -76,7 +76,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | ShuffleNetV2×1.5_kd | 96.56%      | 96.88%    | 96.47%    | 97.86%    | 96.74%    | **96.90±0.50**(+5.42%)
 
 50% Training:
-| model | RSSCN7_50%_1 | RSSCN7_50%_2 | RSSCN7_50%_3 | RSSCN7_50%_4 | RSSCN7_50%_5 | mean+std |
+| model | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 95.21%      | 94.43%    | 95.21%    | 94.79%    | 95.29%    | 94.99±0.33
 | ResNet18_kd         | 97.71%      | 98.00%    | 98.00%    | 98.14%    | 98.50%    | **98.07±0.26**(+3.08%)
@@ -89,7 +89,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 
 ## NWPU-RESISC45
 10% Training:
-| model | NWPU-RESISC45_10%_1 | NWPU-RESISC45_10%_2 | NWPU-RESISC45_10%_3 | NWPU-RESISC45_10%_4 | NWPU-RESISC45_10%_5 | mean+std |
+| model | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 89.29%      | 88.69%    | 88.74%    | 89.33%    | 88.54%    | 88.92±0.33
 | ResNet18_kd         | 93.96%      | 93.33%    | 93.83%    | 93.83%    | 93.30%    | **93.65±0.28**(+4.73%)
@@ -101,7 +101,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | ShuffleNetV2×1.5_kd | 93.60%      | 92.71%    | 93.69%    | 93.80%    | 93.23%    | **93.41±0.40**(+5.16%)
 
 20% Training:
-| model | NWPU-RESISC45_20%_1 | NWPU-RESISC45_20%_2 | NWPU-RESISC45_20%_3 | NWPU-RESISC45_20%_4 | NWPU-RESISC45_20%_5 | mean+std |
+| model | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | ResNet18_va         | 91.93%      | 91.88%    | 91.97%    | 91.71%    | 91.85%    | 91.87±0.09
 | ResNet18_kd         | 95.73%      | 96.06%    | 95.82%    | 95.85%    | 95.84%    | **95.86±0.11**(+3.99%)
@@ -113,7 +113,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | ShuffleNetV2×1.5_kd | 96.23%      | 95.29%    | 95.56%    | 95.37%    | 95.52%    | **95.59±0.33**(+4.19%)
 
 ## VGG11 & Efficientnet_b3
-| datasets | data_1 | data_2 | data_3 | data_4 | data_5 | mean+std |
+| datasets | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | AID_20%_va           | 92.33%      | 92.76%    | 93.17%    | 92.46%    | 92.59%    | 92.66±0.29
 | AID_20%_kd           | 97.36%      | 97.76%    | 97.61%    | 97.52%    | 97.88%    | **97.63±0.18**(+4.97%)
@@ -133,7 +133,7 @@ All the experiments are implemented by Pytorch 2.4.1 Version in the computing en
 | NWPU-RESISC45_20%_kd | 97.31%      | 97.35%    | 97.29%    | 97.30%    | 97.30%    | **97.31±0.02**(+6.47%)
 
 ## Efficientnet_b3 & Efficientnet_b3
-| datasets | data_1 | data_2 | data_3 | data_4 | data_5 | mean+std |
+| datasets | data1 | data2 | data3 | data4 | data5 | mean+std |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | AID_20%_va           | 95.60%      | 95.66%    | 95.86%    | 95.76%    | 95.73%    | 95.72±0.09
 | AID_20%_kd           | 97.52%      | 97.76%    | 97.95%    | 97.78%    | 97.56%    | **97.71±0.16**(+1.99%)
